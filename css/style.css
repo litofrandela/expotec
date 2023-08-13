@@ -1,0 +1,284 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: rgba(157, 208, 91, 0.235);
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+#fondo {
+    background: linear-gradient(45deg, white, white, rgb(120, 1, 1), rgb(120, 1, 1), white, skyblue, skyblue);
+    border: black solid 3px;
+}
+
+.logo {
+    width: 130px;
+}
+
+ul {
+    font-size: 2em;
+}
+
+#margi {
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    border: rgb(2, 129, 255) solid 2px;
+    background-color: rgb(128, 0, 0);
+    font-size: 0.7em;
+}
+
+#borde {
+    border: 10px solid rgb(0, 0, 0);
+    width: 890px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(91, 2, 2);
+}
+
+.almedio {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.tamaño {
+    width: 200px;
+    height: 250px;
+}
+
+.tipo {
+    color: rgb(0, 229, 255);
+}
+
+.contenedor {
+    background-color: rgb(255, 115, 0);
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    border: solid rgb(60, 0, 255) 5px;
+    margin-top: 212px;
+}
+
+.centrado {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    padding: 0px;
+    border: black solid 5px;
+}
+
+#margi{
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(2, 129, 255) solid 2px;
+    color: rgb(128, 0, 0);
+    font-size: 1em;
+    width: 160px;
+} 
+
+#marg{
+    margin-left: 100px;
+    color:rgb(255, 255, 255);
+    border: rgb(128, 0, 0) solid 2px;
+    background-color: rgb(2, 129, 255);
+    font-size: 1em;
+    width: 330px;
+} 
+
+#mar{
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    border: rgb(2, 129, 255) solid 2px;
+    background-color: rgb(128, 0, 0);
+    font-size: 1em;
+    width: 290px;
+} 
+
+#grande{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:1257px) {
+
+    #margi{
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 160px;
+
+    } 
+
+    #marg{
+        margin-left: 100px;
+        color:rgb(255, 255, 255);
+        border: rgb(128, 0, 0) solid 2px;
+        background-color: rgb(2, 129, 255);
+        font-size: 1em;
+        width: 190px;
+
+    } 
+
+    #mar{
+        margin-left: 100px;
+        color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        background-color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 300px;
+     
+    } 
+}
+
+@media screen and (max-width:1131px) {
+
+    #margi{
+        margin-left: 50px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 160px;
+
+    } 
+
+    #marg{
+        margin-left: 50px;
+        color:rgb(255, 255, 255);
+        border: rgb(128, 0, 0) solid 2px;
+        background-color: rgb(2, 129, 255);
+        font-size: 1em;
+        width: 190px;
+
+    } 
+
+    #mar{
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        background-color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 300px;
+     
+    } 
+}
+
+
+@media screen and (max-width:991px) {
+    #borde {
+        border: 10px solid rgb(0, 0, 0);
+        width: 700px;
+        margin-top: 20px;
+        background-color: rgb(91, 2, 2);
+        text-align: center;
+    }
+
+    #empresas {
+        display: none;
+    }
+
+    #desaparecer {
+        display: none;
+    }
+
+    #non{
+        display: none;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    ul {
+        font-size: 1.2em;
+    }
+
+    #margi{
+        margin-left: 0px;
+        background-color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 100px;
+        margin-top: 5px;
+    } 
+
+    #marg{
+        margin-left: 0px;
+        color:rgb(255, 255, 255);
+        border: rgb(128, 0, 0) solid 2px;
+        background-color: rgb(2, 129, 255);
+        font-size: 1em;
+        width: 190px;
+        margin-top: 10px;
+    } 
+
+    #mar{
+        margin-left: 0px;
+        color: rgb(255, 255, 255);
+        border: rgb(2, 129, 255) solid 2px;
+        background-color: rgb(128, 0, 0);
+        font-size: 1em;
+        width: 160px;
+        margin-top: 5px;
+    } 
+}
+
+
+@media screen and (max-width:767px) {
+    #borde {
+        border: 10px solid rgb(0, 0, 0);
+        width: 520px;
+        margin-top: 20px;
+        background-color: rgb(91, 2, 2);
+    }
+
+}
+
+@media screen and (max-width:545px) {
+    #borde {
+        border: 10px solid rgb(0, 0, 0);
+        width: 450px;
+        margin-top: 20px;
+        background-color: rgb(91, 2, 2);
+    }
+
+   
+}
+
+@media screen and (max-width:469px) {
+    #borde {
+        border: 10px solid rgb(0, 0, 0);
+        width: 380px;
+        margin-top: 20px;
+        background-color: rgb(91, 2, 2);
+    }
+
+    .almedio {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.3em;
+    }
+
+    .tipo {
+        color: rgb(0, 229, 255);
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:403px) {
+    #borde {
+        border: 10px solid rgb(0, 0, 0);
+        width: 300px;
+        margin-top: 20px;
+        background-color: rgb(91, 2, 2);
+    }
+
+}
