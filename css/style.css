@@ -1,284 +1,191 @@
-* {
-    margin: 0%;
-}
-
-body {
-    background-color: rgba(157, 208, 91, 0.235);
-}
-
-nav {
-    margin-bottom: 10px;
-}
-
-#fondo {
-    background: linear-gradient(45deg, white, white, rgb(120, 1, 1), rgb(120, 1, 1), white, skyblue, skyblue);
-    border: black solid 3px;
-}
-
-.logo {
-    width: 130px;
-}
-
-ul {
-    font-size: 2em;
-}
-
-#margi {
-    margin-left: 50px;
-    color: rgb(255, 255, 255);
-    border: rgb(2, 129, 255) solid 2px;
-    background-color: rgb(128, 0, 0);
-    font-size: 0.7em;
-}
-
-#borde {
-    border: 10px solid rgb(0, 0, 0);
-    width: 890px;
+header{
+    background: url(https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5px solid black;
+    display: flex;
     align-items: center;
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgb(91, 2, 2);
 }
 
-.almedio {
-    text-align: center;
-    color: rgb(255, 255, 255);
+/*menu*/
+
+.logo{
+    width: 150px;
+    margin: 10px;
+    border-radius: 2em;
 }
 
-.tamaño {
-    width: 200px;
-    height: 250px;
+.imagen{
+    display: none;
 }
 
-.tipo {
-    color: rgb(0, 229, 255);
+.abrir-menu,.cerrar-menu{
+    display: none;
 }
 
-.contenedor {
-    background-color: rgb(255, 115, 0);
-    margin: auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px;
-    border: solid rgb(60, 0, 255) 5px;
-    margin-top: 212px;
-}
-
-.centrado {
-    text-align: center;
-    background-color: red;
-    color: white;
-    margin-top: 10px;
-    padding: 0px;
-    border: black solid 5px;
-}
-
-#margi{
-    margin-left: 100px;
-    background-color: rgb(255, 255, 255);
-    border: rgb(2, 129, 255) solid 2px;
-    color: rgb(128, 0, 0);
-    font-size: 1em;
-    width: 160px;
-} 
-
-#marg{
-    margin-left: 100px;
-    color:rgb(255, 255, 255);
-    border: rgb(128, 0, 0) solid 2px;
-    background-color: rgb(2, 129, 255);
-    font-size: 1em;
-    width: 330px;
-} 
-
-#mar{
-    margin-left: 100px;
-    color: rgb(255, 255, 255);
-    border: rgb(2, 129, 255) solid 2px;
-    background-color: rgb(128, 0, 0);
-    font-size: 1em;
-    width: 290px;
-} 
-
-#grande{
-    font-size: 1.3em;
-}
-
-@media screen and (max-width:1257px) {
-
-    #margi{
-        margin-left: 100px;
-        background-color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        color: rgb(128, 0, 0);
-        font-size: 1em;
-        width: 160px;
-
-    } 
-
-    #marg{
-        margin-left: 100px;
-        color:rgb(255, 255, 255);
-        border: rgb(128, 0, 0) solid 2px;
-        background-color: rgb(2, 129, 255);
-        font-size: 1em;
-        width: 190px;
-
-    } 
-
-    #mar{
-        margin-left: 100px;
-        color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        background-color: rgb(128, 0, 0);
-        font-size: 1em;
-        width: 300px;
-     
-    } 
-}
-
-@media screen and (max-width:1131px) {
-
-    #margi{
-        margin-left: 50px;
-        background-color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        color: rgb(128, 0, 0);
-        font-size: 1em;
-        width: 160px;
-
-    } 
-
-    #marg{
-        margin-left: 50px;
-        color:rgb(255, 255, 255);
-        border: rgb(128, 0, 0) solid 2px;
-        background-color: rgb(2, 129, 255);
-        font-size: 1em;
-        width: 190px;
-
-    } 
-
-    #mar{
-        margin-left: 50px;
-        color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        background-color: rgb(128, 0, 0);
-        font-size: 1em;
-        width: 300px;
-     
-    } 
-}
-
-
-@media screen and (max-width:991px) {
-    #borde {
-        border: 10px solid rgb(0, 0, 0);
-        width: 700px;
-        margin-top: 20px;
-        background-color: rgb(91, 2, 2);
-        text-align: center;
+@media screen and (max-width:811px) {
+    header{
+        justify-content: space-between;
     }
 
-    #empresas {
-        display: none;
-    }
-
-    #desaparecer {
-        display: none;
-    }
-
-    #non{
-        display: none;
-    }
-
-    .logo {
-        width: 130px;
-    }
-
-    ul {
-        font-size: 1.2em;
-    }
-
-    #margi{
-        margin-left: 0px;
-        background-color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        color: rgb(128, 0, 0);
-        font-size: 1em;
+    .logo{
+        display: inline;
         width: 100px;
-        margin-top: 5px;
+        margin: 10px;
+        border-radius: 2em;
+    }
+
+    .imagen{
+        display: inline;
+        width: 150px;
+        margin: 10px;
+        border-radius: 2em;
+    }
+    
+    .imagen{
+        display: none;
+    }
+
+    .abrir-menu,.cerrar-menu{
+        display: block;
+        margin-right: 10px;
+        background: brown;
+    } 
+    
+    .no_ver{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
     } 
 
-    #marg{
-        margin-left: 0px;
-        color:rgb(255, 255, 255);
-        border: rgb(128, 0, 0) solid 2px;
-        background-color: rgb(2, 129, 255);
-        font-size: 1em;
-        width: 190px;
-        margin-top: 10px;
+   .no_ver.visible{
+    opacity: 1;
+    visibility: visible;
+   }
+
+   .sacar{
+    flex-direction: column;
+    align-items: end;
+   }
+}
+
+@media screen and (max-width:465px) {
+    .logo.ver{
+        visibility: hidden;
+    }
+
+    .imagen{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:355px) {
+    
+    .no_ver{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 0rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
     } 
 
-    #mar{
-        margin-left: 0px;
-        color: rgb(255, 255, 255);
-        border: rgb(2, 129, 255) solid 2px;
-        background-color: rgb(128, 0, 0);
-        font-size: 1em;
-        width: 160px;
-        margin-top: 5px;
+    .logo.ver{
+        visibility: hidden;
+    }
+
+    .color{
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        border:2px solid black;
+        border-radius: 3px;
+        padding: 2px;
+    }
+    
+    .color:hover{
+        color: aliceblue;
+        background: black;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 3px;
+        padding: 4px;
     } 
+  
 }
 
+/*estilos*/
 
-@media screen and (max-width:767px) {
-    #borde {
-        border: 10px solid rgb(0, 0, 0);
-        width: 520px;
-        margin-top: 20px;
-        background-color: rgb(91, 2, 2);
-    }
-
+ .no_ver{
+    margin: auto;
 }
 
-@media screen and (max-width:545px) {
-    #borde {
-        border: 10px solid rgb(0, 0, 0);
-        width: 450px;
-        margin-top: 20px;
-        background-color: rgb(91, 2, 2);
-    }
-
-   
+.sacar{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-right: 10px;
 }
 
-@media screen and (max-width:469px) {
-    #borde {
-        border: 10px solid rgb(0, 0, 0);
-        width: 380px;
-        margin-top: 20px;
-        background-color: rgb(91, 2, 2);
-    }
+.espacio{
+    margin-left: 200px;
+}
 
-    .almedio {
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: 1.3em;
-    }
-
-    .tipo {
-        color: rgb(0, 229, 255);
-        font-size: 1.3em;
+@media screen and (max-width:1120px) {
+    .espacio{
+        margin-left: 100px;
     }
 }
 
-@media screen and (max-width:403px) {
-    #borde {
-        border: 10px solid rgb(0, 0, 0);
-        width: 300px;
-        margin-top: 20px;
-        background-color: rgb(91, 2, 2);
+@media screen and (max-width:920px) {
+    .espacio{
+        margin-left: 50px;
     }
-
 }
+
+.bord{ 
+    margin-top: 10px;
+    font-size: 1.4em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.bord:hover{ 
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.color{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid black;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.color:hover{
+    color: aliceblue;
+    background: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 4px;
+} 
