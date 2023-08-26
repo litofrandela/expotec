@@ -7,6 +7,26 @@ const cer = document.querySelector("#cer");
 const logo = document.querySelector("#logo");
 
 abrir.addEventListener("click", () => {
+    abrir.classList.add("ocultar");
+})
+
+cerrar.addEventListener("click", () => {
+    abrir.classList.remove("ocultar");
+})
+
+c.addEventListener("click", () => {
+    abrir.classList.remove("ocultar");
+})
+
+ce.addEventListener("click", () => {
+    abrir.classList.remove("ocultar");
+})
+
+cer.addEventListener("click", () => {
+    abrir.classList.remove("ocultar");
+})
+
+abrir.addEventListener("click", () => {
     logo.classList.add("ver");
 })
 

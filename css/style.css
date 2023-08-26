@@ -1,5 +1,12 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2019/09/10/22/05/mountains-4467436_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(0.5px);
+}
+
 header{
-    background: url(https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_1280.jpg);
+    background: url(https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 0.5px solid black;
@@ -13,6 +20,7 @@ header{
     width: 150px;
     margin: 10px;
     border-radius: 2em;
+    border: 2px solid black;
 }
 
 .imagen{
@@ -63,7 +71,7 @@ header{
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #1c1c1c;
+        background-color: rgba(0,0,0,0.5);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
     } 
@@ -73,10 +81,23 @@ header{
     visibility: visible;
    }
 
+   .abrir-menu.ocultar{
+    visibility: hidden;
+   }
+
    .sacar{
     flex-direction: column;
     align-items: end;
    }
+}
+
+
+@media screen and (max-width:500px) {
+    body{
+        background: url(https://cdn.pixabay.com/photo/2023/05/07/09/59/mountains-7976041_1280.jpg);
+        background-repeat: no-repeat;
+        background-size:150%;
+    }
 }
 
 @media screen and (max-width:465px) {
@@ -86,6 +107,7 @@ header{
 
     .imagen{
         display: inline;
+        border: 2px solid black;
     }
 }
 
@@ -102,7 +124,7 @@ header{
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #1c1c1c;
+        background-color: rgba(0,0,0,0.5);
         padding: 0rem;
         box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
     } 
@@ -180,11 +202,12 @@ header{
     border:2px solid black;
     border-radius: 3px;
     padding: 4px;
+    background-color: rgba(154, 152, 152, 0.608);
 }
 
 .color:hover{
     color: aliceblue;
-    background: black;
+    background: rgba(0, 0, 0, 0.608);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     padding: 4px;
