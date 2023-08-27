@@ -1,66 +1,67 @@
-body{
-    background: url(https://cdn.pixabay.com/photo/2019/09/10/22/05/mountains-4467436_1280.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FB3'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23f7882b'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.1' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
     backdrop-filter: blur(0.5px);
 }
 
-header{
+header {
     background: url(https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.5px solid black;
     display: flex;
+    border: 0.5px solid black;
     align-items: center;
 }
 
 /*menu*/
 
-.logo{
+.logo {
     width: 150px;
     margin: 10px;
     border-radius: 2em;
     border: 2px solid black;
 }
 
-.imagen{
+.imagen {
     display: none;
 }
 
-.abrir-menu,.cerrar-menu{
+.abrir-menu,
+.cerrar-menu {
     display: none;
 }
 
 @media screen and (max-width:811px) {
-    header{
+    header {
         justify-content: space-between;
     }
 
-    .logo{
+    .logo {
         display: inline;
         width: 100px;
         margin: 10px;
         border-radius: 2em;
     }
 
-    .imagen{
+    .imagen {
         display: inline;
         width: 150px;
         margin: 10px;
         border-radius: 2em;
     }
-    
-    .imagen{
+
+    .imagen {
         display: none;
     }
 
-    .abrir-menu,.cerrar-menu{
+    .abrir-menu,
+    .cerrar-menu {
         display: block;
         margin-right: 10px;
         background: brown;
-    } 
-    
-    .no_ver{
+    }
+
+    .no_ver {
         opacity: 0;
         visibility: hidden;
         display: flex;
@@ -71,49 +72,48 @@ header{
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
-    } 
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
 
-   .no_ver.visible{
-    opacity: 1;
-    visibility: visible;
-   }
+    .no_ver.visible {
+        opacity: 1;
+        visibility: visible;
+    }
 
-   .abrir-menu.ocultar{
-    visibility: hidden;
-   }
+    .abrir-menu.ocultar {
+        visibility: hidden;
+    }
 
-   .sacar{
-    flex-direction: column;
-    align-items: end;
-   }
+    .sacar {
+        flex-direction: column;
+        align-items: end;
+    }
 }
 
 
 @media screen and (max-width:500px) {
-    body{
-        background: url(https://cdn.pixabay.com/photo/2023/05/07/09/59/mountains-7976041_1280.jpg);
-        background-repeat: no-repeat;
-        background-size:150%;
+    body {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FB3'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23f7882b'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.1' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        background-size: cover;
     }
 }
 
 @media screen and (max-width:465px) {
-    .logo.ver{
+    .logo.ver {
         visibility: hidden;
     }
 
-    .imagen{
+    .imagen {
         display: inline;
         border: 2px solid black;
     }
 }
 
 @media screen and (max-width:355px) {
-    
-    .no_ver{
+
+    .no_ver {
         opacity: 0;
         visibility: hidden;
         display: flex;
@@ -124,64 +124,64 @@ header{
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         padding: 0rem;
-        box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
-    } 
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
 
-    .logo.ver{
+    .logo.ver {
         visibility: hidden;
     }
 
-    .color{
+    .color {
         color: aliceblue;
         text-decoration: none;
         font-family: 'Times New Roman', Times, serif;
-        border:2px solid black;
+        border: 2px solid black;
         border-radius: 3px;
         padding: 2px;
     }
-    
-    .color:hover{
+
+    .color:hover {
         color: aliceblue;
         background: black;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 3px;
         padding: 4px;
-    } 
-  
+    }
+
 }
 
 /*estilos*/
 
- .no_ver{
+.no_ver {
     margin: auto;
 }
 
-.sacar{
+.sacar {
     display: flex;
     list-style: none;
     gap: 1rem;
     margin-right: 10px;
 }
 
-.espacio{
+.espacio {
     margin-left: 200px;
 }
 
 @media screen and (max-width:1120px) {
-    .espacio{
+    .espacio {
         margin-left: 100px;
     }
 }
 
 @media screen and (max-width:920px) {
-    .espacio{
+    .espacio {
         margin-left: 50px;
     }
 }
 
-.bord{ 
+.bord {
     margin-top: 10px;
     font-size: 1.4em;
     border: 2px solid rgb(255, 255, 255);
@@ -189,26 +189,290 @@ header{
     padding: 0px;
 }
 
-.bord:hover{ 
+.bord:hover {
     border: 2px solid black;
     border-radius: 3px;
     padding: 0px;
 }
 
-.color{
+.color {
     color: aliceblue;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 3px;
     padding: 4px;
     background-color: rgba(154, 152, 152, 0.608);
 }
 
-.color:hover{
+.color:hover {
     color: aliceblue;
     background: rgba(0, 0, 0, 0.608);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     padding: 4px;
-} 
+}
+
+.encerrar {
+    background: url(https://media.istockphoto.com/id/529997984/es/foto/oto%C3%B1o-hills.jpg?s=612x612&w=0&k=20&c=xlrpoGBUiGPD_FG1GmOmxiUp_EGIjr57Fl-0cwYwvqA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 1.2em;
+}
+
+.talleres {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilo_de_p {
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilo_de_p_2 {
+    font-size: 1.7em;
+    text-align: center;
+    background-color: rgba(142, 142, 142, 0.517);
+    border-radius: 1em;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.quitaresto {
+    color: black;
+    text-decoration: none;
+}
+
+.quitaresto:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    background-color: rgba(137, 136, 136, 0.486);
+}
+
+.tamaño {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.fondo {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-size: cover;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3em;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.centraresto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carrusel {
+    width: 490px;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+
+.pie {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23230046' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%232f0052' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233b075e' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2348156a' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+.direccion {
+    width: 90px;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.Alberdi {
+    display: inline-flex;
+    font-size: 3em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:1199px) {
+    .fondo {
+        width: 420px;
+    }
+
+    .estilo_de_p_2 {
+        font-size: 1.4em;
+        padding: 0px;
+        height: 380px;
+    }
+
+}
+
+@media screen and (max-width:1010px) {
+
+    .encerrar {
+        width: 600px;
+        text-align: center;
+    }
+
+    .estilo_de_p {
+        font-size: 1.59374em;
+    }
+
+    .direccion {
+        width: 60px;
+        height: 50px;
+        padding-left: 5px;
+    }
+
+    .Alberdi {
+        display: inline-flex;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:630px) {
+    .encerrar {
+        width: 440px;
+        text-align: center;
+    }
+
+    #tamaño {
+        display: none;
+    }
+
+    .estilo_de_p {
+        font-size: 1.4em;
+        color: black;
+    }
+
+    .direccion {
+        width: 60px;
+        height: 50px;
+        padding-left: 5px;
+    }
+
+    .estilo_de_p_2 {
+        font-size: 0.9em;
+        border-radius: 0.7em;
+        padding: 0px;
+        height: 120px;
+    }
+
+    .Alberdi {
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    
+.fondo {
+    border-radius: 1em;
+}
+}
+
+@media screen and (max-width:530px) {
+    .encerrar {
+        width: 340px;
+        text-align: center;
+    }
+
+    .carrusel {
+        width: 400px;
+        height: 200px;
+    }
+
+    .fondo {
+        padding-bottom: 0px;
+        width: 320px;
+    }
+
+    .estilo_de_p_2 {
+        font-size: 0.7em;
+        border-radius: 1.1em;
+        padding: 0px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .carrusel {
+        width: 300px;
+        height: 200px;
+    }
+
+    .Alberdi {
+        display: block;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .encerrar {
+        width: 300px;
+        text-align: center;
+    }
+
+    .carrusel {
+        width: 290px;
+        height: 180px;
+    }
+
+    .fondo {
+        padding-bottom: 0px;
+        width: 250px;
+    }
+
+    .estilo_de_p_2 {
+        font-size: 0.8em;
+        border-radius: 1.3em;
+        padding: 0px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:319px) {
+    .encerrar {
+        width: 250px;
+        text-align: center;
+    }
+
+    .carrusel {
+        width: 230px;
+        height: 200px;
+    }
+
+    .fondo {
+        padding-bottom: 0px;
+        width: 250px;
+    }
+
+    .estilo_de_p_2 {
+        font-size: 0.8em;
+       border-radius: 1.3em;
+        padding: 0px;
+        height: 200px;
+    }
+}
